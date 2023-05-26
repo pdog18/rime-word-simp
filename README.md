@@ -1,7 +1,9 @@
 # rime-word-simp
 Rime 袖珍单词
 
-这个 repo 主要是为了提供一种简单的为 Rime 添加单词支持的方式。
+使用此 repo 为你的 Rime 输入方案提供单词候选词。
+
+
 ### 使用方法
 1. 下载文件(`dict.yaml`、`schema.yaml`、`custom.yaml`) 至 Rime 文件夹
 2. 修改 `[你的方案].custom.yaml` 中的 `[你的方案]` 为你正在使用的方案
@@ -20,11 +22,12 @@ Rime 袖珍单词
 
 总计约 5800 个单词，这个词汇表目前与将来不会添加类似一些 `MacOS`、`Windows`、`Android` 之类的专有名词，因为本人认为这些专有名词不适合用 dict 来表示，如果你有需要，可能使用 `custom-phrase` 更为合适。
  
-#### 此 repo 复制了一部分 [rime-easy-en](https://github.com/BlindingDark/rime-easy-en) 中的代码
+#### 代码参考
+此 repo 复制了一部分 [rime-easy-en](https://github.com/BlindingDark/rime-easy-en) 中的代码
 
 #### 短单词置顶的问题
 考虑到 [雾淞拼音 dvel: 短单词置顶的问题](https://dvel.me/posts/make-rime-en-better/#%E7%9F%AD%E5%8D%95%E8%AF%8D%E7%BD%AE%E9%A1%B6%E7%9A%84%E9%97%AE%E9%A2%98)
-为了简单起见，直接删除了一些单词，删除的单词参考自：
+为了简单起见，直接删除了一些单词，`rug`、`key` 等，删除的单词参考自：
 [雾淞拼音](https://github.com/iDvel/rime-ice/blob/2093207504f3b79657838214075c585c80e0cf9c/double_pinyin.schema.yaml#L102-L108)
  
  
