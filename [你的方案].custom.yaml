@@ -1,0 +1,12 @@
+patch:
+  schema/dependencies:
+    - word_simp
+  word_simp:
+    dictionary: word_simp
+    enable_sentence: false
+    enable_user_dict: false
+    initial_quality: 0.1
+    comment_format:
+      - xform/.*//
+  engine/translators/+:
+    - table_translator@word_simp
